@@ -2,18 +2,15 @@
 
 Just migrated it from Codepen.io to markdown. Credit goes to [David Conner](https://github.com/davidicus).
 
-
-| Working with DOM         | Working with JS         | Working With Functions |
-| -------------------------|-------------------------|----------------------- |
-| [Accessing Dom Elements](#accessing-dom-elements)| [Add/Remove Array Item](#addremove-array-item) | [Add Default Arguments to Function](#add-default-arguments-to-a-function) |
-| [Grab Children/Parent Node(s)](#grab-childrenparent-nodes)| [Add/Remove Object Properties](#addremove-object-properties) | [Throttle/Debounce Functions](#throttle-or-debounce-functions-calls) |
-| [Create DOM Elements](#create-new-dom-elements)| [Conditionals](#conditionals) | |
-| [Add Elements to the DOM](#add-elements-to-the-dom)| [Loops](#loops) | |
-| [Add/Remove/Toggle/Check Classes](#add-elements-to-the-dom-cont)| [Events](#events) | |
-| | [Timers](#timers) | |
-| | [Type Checking](#type-checking) | |
-
-
+| Working with DOM                                                 | Working with JS                                              | Working With Functions                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [Accessing Dom Elements](#accessing-dom-elements)                | [Add/Remove Array Item](#addremove-array-item)               | [Add Default Arguments to Function](#add-default-arguments-to-a-function) |
+| [Grab Children/Parent Node(s)](#grab-childrenparent-nodes)       | [Add/Remove Object Properties](#addremove-object-properties) | [Throttle/Debounce Functions](#throttle-or-debounce-functions-calls)      |
+| [Create DOM Elements](#create-new-dom-elements)                  | [Conditionals](#conditionals)                                |                                                                           |
+| [Add Elements to the DOM](#add-elements-to-the-dom)              | [Loops](#loops)                                              |                                                                           |
+| [Add/Remove/Toggle/Check Classes](#add-elements-to-the-dom-cont) | [Events](#events)                                            |                                                                           |
+|                                                                  | [Timers](#timers)                                            |                                                                           |
+|                                                                  | [Type Checking](#type-checking)                              |                                                                           |
 
 #### Accessing Dom Elements
 
@@ -86,6 +83,7 @@ parent.insertBefore(newHeading, firstHeading);
 #### Add Elements to the DOM cont.
 
 Suppose you have the following HTML:
+
 ```html
 <div id='box1'>
   <p>Some example text</p>
